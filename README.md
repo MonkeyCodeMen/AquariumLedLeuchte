@@ -9,32 +9,35 @@ Das Projekt ermöglicht eine detaillierte Simulation der Beleuchtungsszenarien, 
 Wir haben uns eine neue 3 Kanal LED Aquarium Beleuchtung zugelegt 
 damit kann man wirklich die Pflanzen / Steine und natürlich auch die Fische wunderschön in Szene setzen
 
-nach einigen versuchen zur Planung der Steuerungszeiten und einem Excel Sheet zum dartsellen der An und Aus zeiten 
+Nach einigen Versuchen zur Planung und Diksussion der Steuerungszeiten erst auf Papier und dann mit Excel
 habe ich für meine Frau eine Visualisierung geschrieben 
 
-die Programme werden ähnlich wie in der Steuerung definiert
-das Programm stellt nun die An und Ausschaltzeiten/Rampen dar und man kann anhand des Plots schön diskutieren früher oder später, mehr oder weniger ...
+Die Programme werden ähnlich wie in der Steuerung definiert. 
+Die Simulation stellt nun die An und Ausschaltzeiten inklusive Rampen dar und man kann anhand des Plots schön diskutieren ob doch etwas früher / später , mehr / weniger ...
 
-nachdem ich jetzt schon mehrfach gefragt wurde habe ich es weiter gebe habe ich mich (eigentlich meine Frau für mich) entschlossen es online zu stellen
+Nachdem ich jetzt schon mehrfach gefragt wurde ob ich den code mal schicken kann habe ich (eigentlich meine Frau für mich) beschlossen es online zu stellen.
 
+Das Ganze sieht dan in etwa so aus:
 ![Ausgabe der Beleuchtungssimulation](./Aquarium_Beleuchtung.png)
 
 
 
 ## Installation
-
-1. Klone das Repository:
+Klone das Repository:
    ```bash
    git clone https://github.com/MonkeyCodeMen/AquariumLedLeuchte.git
+```
 oder ihr kopiert das File einfach über die Web Oberfläche von GitHub wohin ihr wollt
 
-## was bnötigt ihr zum Ausführen (Abhänigkeiten)
+## was bnötigt man zum Ausführen ? (Abhänigkeiten)
+```
 1. Python 3.7+ (Versoin relativ egal)
 2. matplotlib (für die Visualisierung)
 3. numpy 
+```
 ich möchte hier keine Werbung machen aner WinPython ist ein schönes Paket alles aus einer Hand und Spyder ist wirklich ein hervorragendes Tool, unglaublich dass es so etwas für free gibt 
 
-## kann man das script anpassen 
+## kann man das script anpassen ?
 klar sonst würde ich es ja nicht online stellen
 
 ### Lampe
