@@ -26,9 +26,9 @@ nachdem ich jetzt schon mehrfach gefragt wurde habe ich es weiter gebe habe ich 
 1. Klone das Repository:
    ```bash
    git clone https://github.com/MonkeyCodeMen/AquariumLedLeuchte.git
-oder ihr kopiert das File einfach über die Web Pberfläche von GitHub wohin ihr wollt
+oder ihr kopiert das File einfach über die Web Oberfläche von GitHub wohin ihr wollt
 
-## was bnötigt ihr / Abhänigkeiten
+## was bnötigt ihr zum Ausführen (Abhänigkeiten)
 1. Python 3.7+ (Versoin relativ egal)
 2. matplotlib (für die Visualisierung)
 3. numpy 
